@@ -6,7 +6,7 @@ const port = 3001
 /* CONFIGS */
 
 app.set("view engine", "ejs")
-app.set("views", path.join(__dirname,""))
+app.set("views", path.join(__dirname,"views"))
 
 /* MIDDLEWARE */
 
